@@ -1,8 +1,5 @@
 import sys
 import numpy as np
-# import matplotlib
-# import matplotlib.pyplot as plt
-# matplotlib.use('Agg')
 from math import pi, sqrt, log, ceil
 idx =  [i for i, itr in enumerate(sys.path[0]) if itr == "/"]
 path_address = sys.path[0][:idx[-1]]
