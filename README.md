@@ -1,5 +1,10 @@
 # Time-dependent Schrödinger equation solver for atomic and diatomic systems
-This project centers around developing software designed to perform simulations that delve into the interactions between atoms and molecules with laser pulses within a quantum mechanical framework. The primary objective is to solve the time-dependent Schrödinger equation (TDSE) for atoms and diatomic molecules under the influence of high-intensity, ultrafast laser pulses.
+This project focuses on modeling the interaction between atoms and molecules with intense laser pulses. Its primary goal is to solve the time-dependent Schrödinger equation (TDSE) for atoms and diatomic molecules exposed to high-intensity, ultrafast laser pulses. By solving the TDSE, valuable insights can be gained into processes such as electron excitation and deexcitation through photon absorption, electron ionization from atoms and molecules, and high harmonic generation (HHG).
+
+
+
+
+
 
 1. [ Dependencies. ](#desc)
 2. [ Usage. ](#usage)
@@ -7,7 +12,7 @@ This project centers around developing software designed to perform simulations 
 
 
 <a name="desc"></a>
-## 1. Description
+## 1. Dependencies
 
 PETSC, SLEPC, petsc4py, and slepc4py with complex number
 
